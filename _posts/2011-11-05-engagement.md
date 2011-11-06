@@ -8,6 +8,7 @@ s3_bucket: 2011_engagement
 # {{ page.title }}
 
 <div id="slideshow" style="width: 500px; height: 300px">
+<!--
     <img src="{{ site.gallery_base }}/{{ post.s3_bucket }}/IMG_2288.JPG">
     <img src="{{ site.gallery_base }}/{{ post.s3_bucket }}/IMG_2289.JPG">
     <img src="{{ site.gallery_base }}/{{ post.s3_bucket }}/IMG_2290.JPG">
@@ -79,6 +80,7 @@ s3_bucket: 2011_engagement
     <img src="{{ site.gallery_base }}/{{ post.s3_bucket }}/IMG_2356.JPG">
     <img src="{{ site.gallery_base }}/{{ post.s3_bucket }}/IMG_2357.JPG">
     <img src="{{ site.gallery_base }}/{{ post.s3_bucket }}/IMG_2358.JPG">
+    -->
     <img src="{{ site.gallery_base }}/{{ post.s3_bucket }}/IMG_2359.JPG">
     <img src="{{ site.gallery_base }}/{{ post.s3_bucket }}/IMG_2360.JPG">
     <img src="{{ site.gallery_base }}/{{ post.s3_bucket }}/IMG_2361.JPG">
