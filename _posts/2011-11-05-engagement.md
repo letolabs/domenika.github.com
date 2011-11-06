@@ -7,7 +7,7 @@ s3_bucket: 2011_engagement/web
 
 # {{ page.title }}
 
-<div id="slideshow" style="width: 500px; height: 300px">
+<div id="slideshow" style="width: 600px;">
     <img src="{{ site.gallery_base }}/{{ page.s3_bucket }}/IMG_2313.JPG">
     <img src="{{ site.gallery_base }}/{{ page.s3_bucket }}/IMG_2316.JPG">
     <img src="{{ site.gallery_base }}/{{ page.s3_bucket }}/IMG_2322.JPG">
