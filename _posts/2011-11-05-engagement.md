@@ -5,7 +5,7 @@ status: published
 s3_bucket: 2011_engagement/web
 ---
 
-# {{ page.title }}
+# {{ page.title }} {{ post.date | date_to_string }}
 
 <div id="slideshow" style="width: 600px;">
     <img src="{{ site.gallery_base }}/{{ page.s3_bucket }}/IMG_2313.JPG">
