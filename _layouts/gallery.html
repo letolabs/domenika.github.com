@@ -13,6 +13,42 @@
    <link rel="stylesheet" href="/css/jquery.slideshow.css" type="text/css" media="screen, projection" />
    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
    <script type="text/javascript" src="/js/jquery.slideshow.js"></script>
+
+   <script type="text/javascript" src="/js/jquery.slideshow.js">
+var $el = $('#slideshow');
+$el.slideshow({
+  duration: 400,
+  delay: 3000,
+  selector: '> img',
+  transition: 'push(up)',
+  autoPlay: true,
+  show: function (params){
+    var nextIndex = params.next.index;
+    if (nextIndex > 2) {
+      // do something awesome when the slide is after the third slide.
+    }
+  },
+  complete: function (params){
+    // do something awesome when a transition finishes
+  }
+});
+
+// get the slideshow object if you want it
+var slideshow = $el.data('slideshow');
+
+// show the third slide
+//$el.slideshow( 'show', 2 ); // Element API
+//slideshow.show(2); // object API
+
+// show the next slide
+//slideshow.show('next');
+
+// pause and play
+//slideshow.stop();
+slideshow.play();
+
+</script>
+
 </head>
 <body>
 
@@ -78,6 +114,7 @@ var pageTracker = _gat._getTracker("");
 pageTracker._trackPageview();
 </script>
 -->
+
 
 </body>
 </html>
