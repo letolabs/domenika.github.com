@@ -1,3 +1,5 @@
-# Domenika + Duke
+# Duke Leto + Lady Domenika
 
-Yep.
+This is a Jekyll website that is compatible with Github Pages. It uses Amazon
+S3 to actually store/backup the images. Each "post" is a photo gallery that
+defines the S3 bucket where the pictures are stored.
